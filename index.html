@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rekomendasi Waktu Tidur</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Rekomendasi Waktu Tidur Ideal</h1>
+    <form id="sleepForm">
+      <label for="umur">Masukkan umur Anda:</label>
+      <input type="number" id="umur" name="umur" required min="1" max="120" />
+
+      <label for="aktivitas">Pilih aktivitas Anda:</label>
+      <select id="aktivitas" name="aktivitas" required>
+        <option value="">--Pilih--</option>
+        <option value="pelajar">Pelajar</option>
+        <option value="pekerja">Pekerja</option>
+        <option value="atlet">Atlet</option>
+        <option value="santai">Santai</option>
+      </select>
+
+      <button type="submit">Hitung</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
