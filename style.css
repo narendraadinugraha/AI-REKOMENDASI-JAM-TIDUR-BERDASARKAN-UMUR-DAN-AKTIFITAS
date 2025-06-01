@@ -13,7 +13,7 @@ body {
     padding: 2rem 3rem;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    width: 350px;
+    width: 400px;
   }
   
   h1 {
@@ -42,6 +42,7 @@ body {
     border: none;
     color: white;
     cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   
   button:hover {
@@ -53,5 +54,16 @@ body {
     font-weight: bold;
     text-align: center;
     color: #222;
+    font-size: 1.1rem;
+  }
+  
+  #tips {
+    margin-top: 1rem;
+    background: #e7f3ff;
+    padding: 1rem;
+    border-left: 4px solid #007bff;
+    color: #004a99;
+    font-size: 0.95rem;
+    border-radius: 4px;
   }
   
