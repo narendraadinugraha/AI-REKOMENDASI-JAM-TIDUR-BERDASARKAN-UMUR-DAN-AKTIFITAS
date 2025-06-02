@@ -69,7 +69,7 @@ function hitungJamBangun(jamTidur, durasiTidur) {
         else durasi = 8;
         break;
       case 'pekerja':
-        durasi = (umur < 40) ? 7.5 : 7;
+        durasi = (umur < 40) ?    7.5 : 7;
         break;
       case 'atlet':
         durasi = 9;
